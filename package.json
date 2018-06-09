@@ -1,0 +1,19 @@
+{
+  "name": "cel-mirna-counter",
+  "description": "Get read counts in EV, NOL and X2 datasets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mkdirp": "^0.5.2",
+    "@types/node": "^10.3.2",
+    "typescript": "^2.9.1"
+  },
+  "scripts": {
+    "compile": "tsc -p src --outDir out",
+    "replace": "node ./out/replacer.js"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
